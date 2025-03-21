@@ -1,0 +1,697 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    }
+    
+    html, body{
+    width:100%;
+    overflow-x: hidden;
+    }
+
+    #primeira_secao{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 50vh;
+    }
+
+    #imagem{
+        position: absolute;
+        width:100%;
+        height: 50vh;
+    }
+
+    #imagem img{
+       
+        width:100%;
+        height: 50vh;
+        filter: brightness(35%);
+    }
+
+    #topo{
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        width: 100%;
+        height: 7vh;
+        background-color: white;
+    }
+
+    #logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        color: #ff4800;
+        width: 10vw;
+        font-size: 20px;
+    }
+
+    #menu{
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        width: 35vw;
+    }
+
+    #menu_opcoes{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:100%;
+    }
+
+    #menu_opcoes a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: #272736;
+        background-color: #ff4800;
+        height: 5vh;
+        width:5vw;
+    }
+
+    #botao{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 8vw;
+    }
+
+    #botao button{
+        height: 4vh;
+        width: 6vw;
+        background-color: #ff4800;
+        color:white;
+        border: none;
+        font-size: 11px;
+    }
+
+    #parte_central{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 50vh;
+        position: absolute
+    }
+
+    #safe{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 15vw;
+        font-size: 20px;
+        height: 5vh;
+        color: #ff4800;
+    }
+
+    #logistica{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30vw;
+        height: 10vh;
+        font-size: 30px;
+        color: white;
+    }
+
+    #inp_bot{
+        width: 25vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 10vh;
+    }
+
+    #inpu_bot{
+        position: absolute;
+        width: 25vw;
+        height: 5vh;
+    }
+
+    #inpu_bot input{
+        width: 25vw;
+        height: 5vh;
+    }
+
+    #botao_log{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 25vw;
+        height: 5vh;
+        position: relative;
+    }
+
+    #botao_log button{
+        width: 8vw;
+        height: 5vh;
+        color: white;
+        background-color: #ff4800;
+    }
+
+    #segunda_secao{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 60vh;
+    }
+
+    #parte_cinza{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        background-color: #f2f2f4;
+        width: 100%;
+        height: 40vh ;
+    }
+
+    #bloco_1{
+        width: 25vw;
+        height: 40vh;
+    }
+
+    #bloco_1 h2{
+        font-size: 15px;
+        color: #ff4800;
+    }
+
+    #bloco_1 h1{
+        font-size: 30px;
+    }
+
+    #get_{
+        height: 10vh;
+    }
+
+    #get_text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+        color: #949494;
+        height: 12vh;
+    }
+
+    #bloco_2{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 15vh;
+    }
+
+    #block h1{
+        font-size: 30px;
+        color: #ff4800;
+    }
+
+    #block p{
+        font-size: 12px;
+    }
+
+    #segundo_bloco{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 20vw;
+        height: 40vh;
+        background-color:#ff4800;
+    }
+
+    #cont_cli{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 20vw;
+        margin-top: 5px;
+        height:5vh ;
+    }
+
+    #cont_cli input{
+        width: 15vw;
+        height:5vh ;
+        
+    }
+
+    #cont_cli select{
+        width: 15vw;
+        height:5vh ;
+        color: #949494;
+    }
+
+    #cont_cli button{
+        width: 15vw;
+        height:5vh ;
+        color: white;
+        background-color: #1f1f2e;
+    }
+
+    #terceira_secao{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 65vh;
+    }
+
+    #plan{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        width: 15vw;
+        height: 5vh;
+    }
+
+    #plan h2{
+        font-size: 15px;
+        color: #ff4800;
+    }
+
+    #packages{
+        height:10vh ;
+        width: 35vw;
+        font-size: 2px;
+    }
+
+    #packages h1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 30px;
+    }
+
+    #quadros_{
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+        height: 40vh;
+        background-color: bisque;
+    }
+
+    #tres_quadros{
+        display: flex;
+        width: 15vw;
+        align-items: center;
+        flex-direction: column;
+        background-color: #f2f2f4;
+    }
+
+    #preco{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 15vw;
+        height: 8vh;
+    }
+
+    #plano{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 15vw;
+        height: 8vh;
+        background-color: #ff4800;
+    }
+
+    #materiais{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 15vw;
+        height: 15vh;
+        line-height: 3.5vh;
+    }
+
+    #materiais p{
+        color: #949494;
+    }
+
+    #botao_quadro{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 15vw;
+        height: 8vh;
+    }
+
+    #botao_quadro button{
+        width: 8vw;
+        height: 3vh;
+        border: none;
+        color: white;
+        background-color: #ff4800;
+    }
+
+    #quarta_secao{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 50vh;
+    }
+
+    #cabecalho{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 30vw;
+        height: 10vh;
+    }
+
+    #cabecalho h2{
+        font-size: 15px;
+        color: #ff4800;
+    }
+
+    #cabecalho h1{
+        font-size: 30px;
+    }
+    
+    #quadro_trab{
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+        height: 35vh;
+    }
+
+    #quadro_1{
+        display: flex;
+        flex-direction: column;
+        width: 10vw;
+        height: 33vh;
+        background-color: #f2f2f4;
+    }
+
+    #ima_trab{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        line-height:5vh;
+    }
+
+    #ima_trab img{
+        width: 100%;
+    }
+
+    #ima_trab p{
+        color: #939393;
+    }
+
+    #linha_final{
+        width: 100%;
+        height: 0.5vh;
+        background-color: #ff4800;
+    }
+
+    #quinta_secao{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 80vh;
+        align-items: center;
+    }
+
+    #blocos_ima{
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+        height: 55vh;
+    }
+
+    #primeiro_bloc{
+        width: 23vw;
+        height: 60vh;
+        background-color: #f2f2f4;
+    }
+
+    #trabaha_caixa img{
+        width:100%;
+    }
+
+    #infor{
+        display: flex;
+        width: 100%;
+        height: 5vh;
+    }
+
+    #foto_eu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 4vw;
+        height: 5vh;
+    }
+
+    #foto_eu img{
+        border-radius: 50px;
+        width: 2vw;
+        height: 4vh;
+    }
+
+    #nome_{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 5vw;
+        height: 5vh;
+    }
+
+    #web{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 8vw;
+        height: 5vh;
+    }
+
+    #web i{
+        color: #ff4800;
+    }
+
+    #bloco_tex{
+        height: 25vh;
+    }
+
+  .Kasd{
+    display: flex;
+    align-items: center ;
+    padding-left:2vh;
+    width: 100%;
+    height: 5vh;
+    font-size: 12px;
+  }
+
+  .amet{
+    display: flex;
+    padding-left: 2vh;
+    align-items: center;
+    width: 100%;
+    height: 12vh;
+  }
+
+  .More{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 4vh;
+    padding-left: 2vh;
+  }
+
+  .More a{
+    color: #ff4800;
+    font-size: 10px;
+  }
+
+  #secao_final{
+    width: 100%;
+    height: 45vh;
+    background-color: #1f1f2e;
+  }
+
+  #blocos_finais{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 35vh;
+  }
+
+  #get_in{
+    width: 15vw;
+    height: 30vh;
+  }
+
+  #cabecalho_final{
+    padding-left: 2vh;
+    width: 15vw;
+    height: 5vh;
+    color: #ff4800;
+  }
+
+ #contatos{
+    padding-left: 2vh;
+    width: 100%;
+    height: 15vh;
+    line-height: 5vh;
+    font-size: 12px;
+    color: white;
+ } 
+
+ #redes_sociais_fim{
+    padding-left: 2vh;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 15vw;
+    height: 6vh;
+ }
+
+ #circulo_final{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px,solid,white;
+    border-radius: 50px;
+    width: 2vw;
+    height:4vh;
+ }
+
+ #circulo_final a{
+    color: white;
+ }
+
+ #quick-link{
+    width: 15vw;
+    height: 30vh;
+ }
+
+ #links_quic{
+    padding-left: 2vh;
+    width: 100%;
+    height: 25vh;
+    line-height: 4vh;
+    display: flex;
+    font-size: 12px;
+    flex-direction: column;
+ }
+
+ #links_quic i{
+    font-size: 8px;
+ }
+
+ #links_quic a{
+    text-decoration: none;
+    color: white;
+ }
+
+ #New_s{
+    width: 40vw;
+    height: 30vh;
+ }
+
+ #text_new{
+    display: flex;
+    width: 100%;
+    color: white;
+    padding-left: 2vh;
+    align-items: center;
+    height: 9vh;
+ }
+
+ #botao_in{
+    position:relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 6vh;
+ }
+
+ #ipu_fin{
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: 100%;
+    height: 5vh;
+    padding-left: 2vh;
+    
+ }
+
+ #ipu_fin input{
+    display: flex;
+    padding-left: 2vh;
+    align-items: center;
+    width: 90%;
+    height: 5vh;
+ }
+
+ #bot_fi{
+    position: absolute;
+    display: flex;
+    width: 40vw;
+    justify-content: end;
+    height: 5vh;
+ }
+
+ #bot_fi button{
+    height: 5vh;
+    width: 6vw;
+    color: white;
+    background-color: orangered;
+ }
+
+ #linha_do_fim{
+    width: 100%;
+    height: 3vh;
+ }
+
+ .linha_fin{
+    width: 100%;
+    height: 0.3vh;
+    background-color:#272736;
+ }
+
+ #rodpe{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 5vh;
+ }
+
+ #rodape{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 5vh;
+ }
+
+ #html{
+    width: 25vw;
+   font-size: 12px;
+   color: white;
+ }
+
+ #html span{
+    color: #ff4800;
+ }
+
+ #Privacy{
+    display: flex;
+    justify-content: end;
+    gap: 15px;
+    width: 15vw;
+    height: 5vh;
+    font-size: 12px;
+ }
+
+ #Privacy a{
+    text-decoration: none;
+    color: white;
+ }
